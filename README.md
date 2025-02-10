@@ -30,5 +30,29 @@ Von-Neuman architecture comes under SISD. Here, Control->CPU
 
 ![image](https://github.com/user-attachments/assets/4e894d4f-3ce8-4b74-95ac-a5c894bff163)
 
+Introduction to Memory
 
+![image](https://github.com/user-attachments/assets/1e965e9d-0523-4436-87a1-2068ca13ee31)
+
+The data which are stored for immediate access are stored in primary memory and for permanent storage, we use secondary memory. Let us say that we need play an audio file. So, the system manager will manages the space in the primary storage and get the data from the secondary storage and use the default application to play the file.
+
+![image](https://github.com/user-attachments/assets/6d894b0c-a0a7-4b96-9da4-0dd239f03dad)
+
+As we need to perform the operation as quick as possible, we can access the data from the primary memory in any order. And so it is called as RAM. And Dynamic RAM which has a transistor and capacitor is used mostly.
+
+![image](https://github.com/user-attachments/assets/9c5cc77e-767b-4e5d-9c50-6a84ebdf65ed)
+
+And for the further fast primary storage, we use cache. And all these primary memory storage elements are volatile, which means that the data will be stored there only till the power is ON. Also, these are costlier than the secondary memory.
+
+![image](https://github.com/user-attachments/assets/5e3fe996-3d3f-4f5a-8b1a-303d61b13128)
+
+![image](https://github.com/user-attachments/assets/1630470b-6cef-4a95-9325-e3e457b311d1)
+
+The cache and main memory will communicate with each other by using 'blocks or words' and this data communication is called, cache memory mapping. But, these memories will not retain data permanently. So, we need secondary storage. Having the single large storage is not the good solution. We should have storage elements as shown below, for faster computing.
+
+![image](https://github.com/user-attachments/assets/35efbe1f-44dd-43c1-85a0-b94c90f9a567)
+
+Memory Hierarchy & Interfacing
+
+![image](https://github.com/user-attachments/assets/6fd945ea-8d40-43b5-90a6-784546df5849)
 
